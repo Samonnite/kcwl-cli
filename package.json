@@ -6,7 +6,7 @@
     "inquirer": "^8.0.0"
   },
   "name": "kcwl-cli",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "main": "index.js",
   "bin": {
     "cli-test": "./bin/index.js"

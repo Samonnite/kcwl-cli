@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-module.exports = function checkDir(dir, name) {
+module.exports = function checkDire(dir, name) {
     let isExists = fs.existsSync(dir)
     if (isExists) {
         console.log(chalk.red(
